@@ -1,0 +1,21 @@
+source /var/local/ML/TRAIN/jax/bin/activate
+
+# ToDo
+Take the dataclass for config idea from jenkspt/gpt-jax and assemble a working training code
+Prepare storing train state
+Prepare continuing training from checkpoint
+
+# Key links
+https://github.com/jenkspt/gpt-jax/blob/main/train.py
+https://github.com/cgarciae/nanoGPT-jax/blob/master/train.py
+
+https://github.com/brentyi/tyro
+
+# Lora
+https://github.com/davisyoshida/lorax/blob/master/examples/huggingface_gpt2.py
+https://github.com/alonfnt/pcax
+
+# Misc
+https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms
+
+

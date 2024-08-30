@@ -1,0 +1,35 @@
+{
+    "files.exclude": {
+        "**/*.pyc": true,
+        "obj": true,
+        "bin": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache/**": true,
+        "**/.pytest_cache/**": true
+    },
+    "search.exclude": {},
+    "python.defaultInterpreterPath": "/var/local/ML/TRAIN/jax/bin/python",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.rulers": [88],
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
+    "[JSON]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[YAML]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "editor.rulers": [80]
+}
